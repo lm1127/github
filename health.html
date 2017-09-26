@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>health</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="css/reset.css">
+    <link type="text/css" rel="stylesheet" href="css/common.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+    <i class="fa fa-angle-left"></i>
+    <h3>健康</h3>
+</header>
+<section class="section">
+    <div class="family">
+        <div class="add">
+            <!--<div class="area">
+                <dl>
+                    <dt><img src="images/a.png"></dt>
+                    <dd>请添加联系人，进行健康档案管理</dd>
+                    <dd><span>+</span>请添加联系人</dd>
+                </dl>
+            </div>-->
+        </div>
+    </div>
+
+    <div class="doctor">
+        <div class="title">
+            <span>微医讲堂</span>
+            <span>更多<i class="fa fa-chevron-right"></i></span>
+        </div>
+        <div class="video">
+            <dl>
+                <dt><img src="images/d1.png"></dt>
+                <dd>膝痛到底是为什么？</dd>
+            </dl>
+            <dl>
+                <dt><img src="images/d2.png"></dt>
+                <dd>膝痛到底是为什么？</dd>
+            </dl>
+        </div>
+    </div>
+
+    <div class="change">
+        <div class="title">
+            <span>健康任务</span>
+            <span class="adds">添加<i class="fa fa-circle"></i></span>
+        </div>
+        <div class="body-clear">
+            <dl>
+                <dt><img src="images/a1.png"></dt>
+                <dd>
+                    <p>身体大扫除</p>
+                    <p>身体垃圾“清道夫”，实用16招</p>
+                    <p>去挑战</p>
+                </dd>
+            </dl>
+        </div>
+    </div>
+
+    <div class="checkout">
+        <div class="title">
+            <span>健康测评</span>
+            <span>更多<i class="fa fa-chevron-right"></i></span>
+        </div>
+        <div class="pro">
+            <p>
+                <img src="images/c1.png">
+            </p>
+            <p>
+                <img src="images/c2.png">
+            </p>
+        </div>
+    </div>
+
+    <div class="list">
+        <div class="title">
+            <span>健康任务</span>
+            <span>添加<i class="fa fa-chevron-right"></i></span>
+        </div>
+        <dl class="first">
+            <dt><img src="images/img1.png"></dt>
+            <dd>
+                <p>呼吸系统重疾险</p>
+                <p>从小孩到老人，全面保障呼吸系统。超高性价比抗击雾霾，2.4元起~</p>
+                <p><span>￥2.40</span><span>￥5.00</span></p>
+            </dd>
+        </dl>
+    </div>
+</section>
+<footer class="footer">
+    <p>
+        <span class="fa fa-facebook"></span>
+        <span>挂号</span>
+    </p>
+    <p>
+        <span class="fa fa-dashcube"></span>
+        <span>寻医</span>
+    </p>
+    <p>
+        <span class="fa fa-heart-o"></span>
+        <span>健康</span>
+    </p>
+    <p>
+        <span class="fa fa-user-o""></span>
+        <span>个人中心</span>
+    </p>
+</footer>
+<script type="text/javascript" src="js/zepto.min.js"></script>
+<script type="text/javascript" src="js/ajax.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/health.js"></script>
+<script>
+    var str = "";
+    str += `<div class="area">
+            <dl>
+            <dt><img src="images/a.png"></dt>
+            <dd>请添加联系人，进行健康档案管理</dd>
+    <dd><span>+</span>请添加联系人</dd>
+    </dl>
+    </div>`;
+    $(".add").html(str);
+</script>
+</body>
+</html>
